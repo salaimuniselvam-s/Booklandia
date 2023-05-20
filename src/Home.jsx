@@ -1,24 +1,49 @@
 import { BOOKS } from "./constants";
 import BookCard from "./components/BookCard";
 import { useEffect, useState } from "react";
-import Genre from "./components/Genre";
+import SearchFilter from "./components/SearchFilter";
+import GenreFilter from "./components/GenreFilter";
 
 const Home = () => {
   const [books, setBooks] = useState([]);
+  const [searchBooks, setSearchBooks] = useState();
+  const [genre, setGenre] = useState([]);
+  const [isCheckedGenre, setIsCheckedGenre] = useState([]);
 
+  // Initialising Books
   useEffect(() => {
     setBooks(BOOKS);
+    const genres = [...new Set(BOOKS.map((book) => book.genres).flat())];
+    setGenre(genres);
+    setIsCheckedGenre(genres);
   }, []);
 
-  const searchBook = (book) => {
+  // Filtering Books Based on the genre category and search keyword
+  const filterBook = (book) => {
     if (!book) {
-      setBooks(BOOKS);
+      setBooks(
+        BOOKS.filter((b) => b.genres.some((g) => isCheckedGenre.includes(g)))
+      );
     } else {
       setBooks(
-        BOOKS.filter((b) => b.title.toLowerCase().includes(book.toLowerCase()))
+        BOOKS.filter(
+          (b) =>
+            b.title.toLowerCase().includes(book.toLowerCase()) &&
+            b.genres.some((g) => isCheckedGenre.includes(g))
+        )
       );
     }
   };
+
+  const searchBook = (book) => {
+    setSearchBooks(book);
+    filterBook(book);
+  };
+
+  useEffect(() => {
+    filterBook(searchBooks);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [isCheckedGenre]);
 
   return (
     <div className="max-w-screen-xl mx-auto">
@@ -28,43 +53,20 @@ const Home = () => {
         stories come alive and readers&rsquo; dreams take flight. <br /> Unleash
         your imagination and embark on a literary journey like no other. &quot;
       </div>
-      {/* Filters */}
-      <div className="flex justify-between p-3">
-        <div className="w-full">
-          <div className="relative">
-            <div className="absolute inset-y-0 left-0 flex items-center pl-3 pointer-events-none">
-              <svg
-                aria-hidden="true"
-                className="w-5 h-5 text-gray-500 "
-                fill="none"
-                stroke="currentColor"
-                viewBox="0 0 24 24"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  strokeWidth="2"
-                  d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"
-                ></path>
-              </svg>
-            </div>
-            <input
-              type="search"
-              onChange={(e) => searchBook(e.target.value)}
-              className="block w-full p-4 pl-10 text-sm text-gray-900 border border-gray-300 rounded-lg bg-gray-50 focus:ring-blue-600 focus:border-blue-600 focus:outline-none"
-              placeholder="Search Books"
-            />
-            {/* <button
-              type="submit"
-              className="text-white absolute right-2.5 bottom-2.5 bg-blue-700 hover:bg-blue-800  focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-4 py-2 "
-            >
-              Search
-            </button> */}
-          </div>
+      <div className="flex flex-col sm:flex-row gap-6 my-6 mx-3">
+        <div className="w-full sm:w-4/5">
+          {/* Search Filter */}
+          <SearchFilter searchBook={searchBook} />
+        </div>
+        <div className="w-full sm:w-1/5">
+          {/* Genre Category Filter */}
+          <GenreFilter
+            genres={genre}
+            isCheckedGenres={isCheckedGenre}
+            setGenre={setIsCheckedGenre}
+          />
         </div>
       </div>
-      <Genre />
 
       {/* Book Widgets */}
       <div className="flex flex-col items-center sm:items-start sm:flex-row gap-6 my-6 mx-3">

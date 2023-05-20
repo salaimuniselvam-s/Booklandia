@@ -1,7 +1,7 @@
 import PropTypes from "prop-types";
 import { useNavigate } from "react-router-dom";
 
-const BookCard = ({ imgSrc, title, summary, tags }) => {
+const BookCard = ({ imgSrc, title, summary, genres }) => {
   const navigate = useNavigate();
   return (
     <div
@@ -18,13 +18,13 @@ const BookCard = ({ imgSrc, title, summary, tags }) => {
         <p className="text-gray-700 text-base">{summary}</p>
       </div>
       <div className="px-6 pt-4 pb-2">
-        {tags.map((tag, index) => {
+        {genres.map((genre, index) => {
           return (
             <span
               key={index}
               className="inline-block bg-blue-500 hover:bg-blue-700  rounded-full px-3 py-1 text-sm font-semibold text-white mr-2 mb-2"
             >
-              {tag}
+              {genre}
             </span>
           );
         })}
@@ -37,7 +37,7 @@ BookCard.propTypes = {
   imgSrc: PropTypes.string.isRequired,
   title: PropTypes.string.isRequired,
   summary: PropTypes.string.isRequired,
-  tags: PropTypes.array.isRequired,
+  genres: PropTypes.array.isRequired,
 };
 
 export default BookCard;

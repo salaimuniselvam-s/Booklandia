@@ -4,7 +4,7 @@ export const thinkAndGrowRich = {
   authorUrl: "https://en.wikipedia.org/wiki/Napoleon_Hill",
   summary:
     "Think and Grow Rich is a classic self-help book written by Napoleon Hill and originally published in 1937. The book offers a formula for achieving success and wealth, based on the experiences of successful people Hill studied and interviewed.",
-  tags: ["Personal Development", "Self-Help", "Success Literature"],
+  genres: ["Personal Development", "Self-Help", "Success Literature"],
   imgSrc: "Think_And_Grow_Rich.jpeg",
   description: [
     "Desire: You must have a burning desire to achieve your goals and be willing to work hard to achieve them.",

@@ -4,7 +4,7 @@ export const freedomFromTheKnown = {
   authorUrl: "https://en.wikipedia.org/wiki/Jiddu_Krishnamurti",
   summary:
     ' "Freedom from the Known" is a book by Jiddu Krishnamurti that emphasizes the need to break free from conditioning and live in the present moment to experience true freedom and live a more authentic life. The book challenges readers to question their beliefs and conditioning and find their own truth through self-awareness and inquiry',
-  tags: ["Philosophy", "Spirtuality", "Mindfullness"],
+  genres: ["Philosophy", "Spirtuality", "Mindfullness"],
   imgSrc: "Freedom_From_The_Unknown.jpg",
   description: [
     "Krishnamurti argues that our minds are conditioned by various factors such as culture, religion, education, and society, and that this conditioning prevents us from seeing things as they really are. He suggests that we must become aware of this conditioning and question everything we have been taught in order to break free from it",
