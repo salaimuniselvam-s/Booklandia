@@ -5,16 +5,12 @@
   "license": "MIT",
   "type": "module",
   "scripts": {
-    "precommit": "node update-readme.js",
+    "precommit": "node update-readme.js && git add -A .",
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint src --ext js,jsx --report-unused-disable-directives --max-warnings 0",
-    "preview": "vite preview"
-  },
-  "husky": {
-    "hooks": {
-      "pre-commit": "npm run precommit && git add -A ."
-    }
+    "preview": "vite preview",
+    "prepare": "husky install"
   },
   "dependencies": {
     "react": "^18.2.0",
