@@ -1,8 +1,14 @@
 import { useParams } from "react-router-dom";
 import { BOOKS } from "./constants";
+import { useEffect } from "react";
 
 const Book = () => {
   const { bookName } = useParams();
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
   return (
     <div>
       {BOOKS.filter((book) => book.title === bookName).map((book, index) => (

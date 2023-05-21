@@ -40,20 +40,9 @@ const GenreFilter = ({ genres, isCheckedGenres, setGenre }) => {
         onClick={toggleDropdown}
       >
         <span className="flex gap-1 items-center">
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            className="w-5 h-5 text-gray-500"
-            viewBox="0 0 24 24"
-            fill="none"
-            stroke="currentColor"
-            strokeWidth="2"
-            strokeLinecap="round"
-            strokeLinejoin="round"
-          >
-            <path d="M7 2a3 3 0 0 1 2.238 5.07A3 3 0 0 1 7 12h10a3 3 0 0 1-2.238-4.93A3 3 0 0 1 17 6H7z" />
-            <path d="M7 22a3 3 0 0 1-2.238-5.07A3 3 0 0 1 7 12h10a3 3 0 0 1 2.238 4.93A3 3 0 0 1 17 18H7z" />
-          </svg>
-          <span>Genre</span>
+          <span>
+            <i className="far fa-filter mr-1"></i> Genre
+          </span>
         </span>
         <svg
           className="w-5 h-5 ml-2"

@@ -5,7 +5,7 @@ const BookCard = ({ imgSrc, title, summary, genres }) => {
   const navigate = useNavigate();
   return (
     <div
-      className="max-w-sm rounded cursor-pointer overflow-hidden shadow-2xl"
+      className="max-w-sm rounded cursor-pointer mb-6 shadow-2xl"
       onClick={() => navigate(`/book/${title}`)}
     >
       <img
@@ -13,11 +13,11 @@ const BookCard = ({ imgSrc, title, summary, genres }) => {
         src={"http://127.0.0.1:5173" + `/images/books/${imgSrc}`}
         alt={title}
       />
-      <div className="px-6 py-4">
+      <div className="px-6 py-4 overflow-y-auto h-[265px]">
         <div className="font-bold text-2xl mb-2">{title}</div>
         <p className="text-gray-700 text-base">{summary}</p>
       </div>
-      <div className="px-6 pt-4 pb-2">
+      <div className="px-6 pt-2 pb-1 overflow-y-auto h-[95px]">
         {genres.map((genre, index) => {
           return (
             <span

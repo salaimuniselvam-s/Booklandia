@@ -1,4 +1,9 @@
-import { freedomFromTheKnown } from "./Freedom_From_The_Known";
-import { thinkAndGrowRich } from "./Think_And_Grow_Rich";
+import { FourtyEightLawsOfPower } from "./48_Laws_Of_Power.js";
+import { freedomFromTheKnown } from "./Freedom_From_The_Known.js";
+import { thinkAndGrowRich } from "./Think_And_Grow_Rich.js";
 
-export const BOOKS = [freedomFromTheKnown, thinkAndGrowRich];
+export const BOOKS = [
+  freedomFromTheKnown,
+  thinkAndGrowRich,
+  FourtyEightLawsOfPower,
+];
