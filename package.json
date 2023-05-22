@@ -1,7 +1,6 @@
 {
   "name": "books",
   "private": true,
-  "homepage": "https://salaimuniselvam-s.github.io/booklandia",
   "version": "0.1.0",
   "license": "MIT",
   "type": "module",
