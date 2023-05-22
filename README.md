@@ -12,6 +12,7 @@ Booklandia is a personal project where I showcase a curated list of my favorite 
 - Freedom from the Known
 - Think and Grow Rich
 - 48 Laws Of Power
+- Man's Search For Meaning
 <!-- BOOK TITLES END -->
 
 <!-- Add more books and descriptions as needed -->
