@@ -1,5 +1,5 @@
 import {
-  BrowserRouter as Router,
+  // BrowserRouter as Router,
   Route,
   Routes,
   useNavigate,
@@ -17,18 +17,18 @@ function App() {
 
   useEffect(() => {
     if (location.pathname === "/") {
-      navigate("/booklandia", { replace: true });
+      navigate("/Booklandia", { replace: true });
     }
   }, [location.pathname, navigate]);
 
   return (
-    <Router>
+    <>
       <Navbar />
       <Routes>
         <Route path="/Booklandia" element={<Home />} />
         <Route path="/Booklandia/book/:bookName" element={<Book />} />
       </Routes>
-    </Router>
+    </>
   );
 }
 
