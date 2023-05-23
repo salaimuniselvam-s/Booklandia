@@ -12,7 +12,7 @@ const Navbar = () => {
         </span>
         <div className="flex md:order-2">
           <a
-            href="https://github.com/salaimuniselvam-s/books"
+            href="https://github.com/salaimuniselvam-s/Booklandia"
             target="_blank"
             rel="noopener noreferrer"
             className="cursor-pointer whitespace-nowrap  text-base font-semibold text-gray-500 hover:text-gray-900 dark:text-gray-200 dark:hover:text-gray-100 button-text "

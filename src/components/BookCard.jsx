@@ -6,7 +6,7 @@ const BookCard = ({ imgSrc, title, summary, genres }) => {
   return (
     <div
       className="max-w-sm rounded cursor-pointer mb-6 shadow-2xl"
-      onClick={() => navigate(`/book/${title}`)}
+      onClick={() => navigate(`/Booklandia/book/${title}`)}
     >
       <img
         className="w-full h-80 object-fit"
