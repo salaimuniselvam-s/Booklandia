@@ -2,6 +2,7 @@
   "name": "books",
   "private": true,
   "version": "0.1.0",
+  "homepage": "https://salaimuniselvam-s.github.io/Booklandia/",
   "license": "MIT",
   "type": "module",
   "scripts": {
