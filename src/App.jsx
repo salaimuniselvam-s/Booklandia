@@ -17,7 +17,7 @@ function App() {
 
   useEffect(() => {
     if (location.pathname === "/") {
-      navigate("/Booklandia", { replace: true });
+      navigate("/Booklandia/", { replace: true });
     }
   }, [location.pathname, navigate]);
 

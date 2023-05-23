@@ -19,6 +19,7 @@ If you'd like to contribute to Booklandia by adding your own favorite books and 
 - Think and Grow Rich
 - 48 Laws Of Power
 - Man's Search For Meaning
+- Think Again
 <!-- BOOK TITLES END -->
 
 ## License

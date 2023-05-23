@@ -31,7 +31,7 @@ const GenreFilter = ({ genres, isCheckedGenres, setGenre }) => {
   };
 
   return (
-    <div className="w-full" ref={dropdownRef}>
+    <div className="w-full relative" ref={dropdownRef}>
       <button
         id="dropdownCheckboxButton"
         data-dropdown-toggle="dropdownDefaultCheckbox"
@@ -64,7 +64,7 @@ const GenreFilter = ({ genres, isCheckedGenres, setGenre }) => {
         id="dropdownDefaultCheckbox"
         className={`z-10 ${
           isOpen ? "" : "hidden"
-        } w-full bg-gray-50 border border-gray-100 divide-y divide-gray-100 rounded-b-lg shadow absolute`}
+        } w-full  bg-gray-50 border border-gray-100 divide-y divide-gray-100 rounded-b-lg shadow absolute max-h-80 overflow-auto `}
       >
         <ul
           className="p-3 space-y-3 text-sm text-gray-700 "
