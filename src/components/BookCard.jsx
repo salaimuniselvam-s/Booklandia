@@ -10,7 +10,7 @@ const BookCard = ({ imgSrc, title, summary, genres }) => {
     >
       <img
         className="w-full h-80 object-fit"
-        src={`/images/books/${imgSrc}`}
+        src={`images/books/${imgSrc}`}
         alt={title}
       />
       <div className="px-6 py-4 overflow-y-auto h-[265px]">
