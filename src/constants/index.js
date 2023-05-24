@@ -1,4 +1,5 @@
 import { FourtyEightLawsOfPower } from "./48_Laws_Of_Power.js";
+import { AtomicHabits } from "./Atomic_Habits.js";
 import { freedomFromTheKnown } from "./Freedom_From_The_Known.js";
 import { MansSearchForMeaning } from "./Mans_Search_For_Meaning.js";
 import { ThinkAgain } from "./Think_Again.js";
@@ -10,4 +11,5 @@ export const BOOKS = [
   FourtyEightLawsOfPower,
   MansSearchForMeaning,
   ThinkAgain,
+  AtomicHabits,
 ];

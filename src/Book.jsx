@@ -10,7 +10,7 @@ const Book = () => {
   }, []);
 
   return (
-    <div>
+    <div className="max-w-7xl mx-auto">
       {BOOKS.filter((book) => book.title === bookName).map((book, index) => (
         <div
           className="flex flex-col items-center  justify-center m-3"
@@ -38,7 +38,23 @@ const Book = () => {
               ))}
             </ul>
           </div>
+
           <div className="p-3 mt-3 mb-9 bg-slate-50 border border-gray-200 rounded-lg shadow">
+            <div className="text-2xl p-1 font-semibold text-center">
+              <i className="fa-solid fa-thought-bubble"></i> Analogies
+            </div>
+            <div>
+              {book.Analogies.map((analogy, index) => (
+                <p
+                  className="p-3 my-3 bg-white border border-gray-200 rounded-lg shadow hover:bg-gray-100"
+                  key={index}
+                >
+                  {analogy}
+                </p>
+              ))}
+            </div>
+          </div>
+          <div className="p-3  bg-slate-50 border border-gray-200 rounded-lg shadow">
             <div className="text-2xl p-1 font-semibold text-center">
               <i className="fa-sharp fa-solid fa-book-open-reader mr-2"></i>
               Quotes
@@ -50,21 +66,6 @@ const Book = () => {
                   key={index}
                 >
                   {`"${quote}"`}
-                </p>
-              ))}
-            </div>
-          </div>
-          <div className="p-3 bg-slate-50 border border-gray-200 rounded-lg shadow">
-            <div className="text-2xl p-1 font-semibold text-center">
-              <i className="fa-solid fa-thought-bubble"></i> Analogies
-            </div>
-            <div>
-              {book.Analogies.map((analogy, index) => (
-                <p
-                  className="p-3 my-3 bg-white border border-gray-200 rounded-lg shadow hover:bg-gray-100"
-                  key={index}
-                >
-                  {analogy}
                 </p>
               ))}
             </div>
