@@ -1,6 +1,7 @@
 import { useParams } from "react-router-dom";
 import { BOOKS } from "./constants";
 import { useEffect } from "react";
+import { formatAnalogy } from "./utils/formatString";
 
 const Book = () => {
   const { bookName } = useParams();
@@ -33,7 +34,7 @@ const Book = () => {
             <ul className="list-disc list-inside">
               {book.description.map((desc, index) => (
                 <li className="p-1" key={index}>
-                  {desc}
+                  {formatAnalogy(desc)}
                 </li>
               ))}
             </ul>
@@ -49,12 +50,12 @@ const Book = () => {
                   className="p-3 my-3 bg-white border border-gray-200 rounded-lg shadow hover:bg-gray-100"
                   key={index}
                 >
-                  {analogy}
+                  {formatAnalogy(analogy)}
                 </p>
               ))}
             </div>
           </div>
-          <div className="p-3  bg-slate-50 border border-gray-200 rounded-lg shadow">
+          <div className="p-3 mb-6 bg-slate-50 border border-gray-200 rounded-lg shadow">
             <div className="text-2xl p-1 font-semibold text-center">
               <i className="fa-sharp fa-solid fa-book-open-reader mr-2"></i>
               Quotes

@@ -21,6 +21,7 @@ If you'd like to contribute to Booklandia by adding your own favorite books and 
 - Man's Search For Meaning
 - Think Again
 - Atomic Habits
+- Power of Habit
 <!-- BOOK TITLES END -->
 
 ## License
