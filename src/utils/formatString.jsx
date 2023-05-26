@@ -4,7 +4,11 @@ export const formatAnalogy = (string) => {
   const remainingPart = string.substring(delimiterIndex + 1);
   return (
     <span>
-      <span className="font-size-16 font-semibold">{firstPart}</span>:
+      {firstPart.length > 0 ? (
+        <span className="font-size-16 font-semibold">{firstPart}:</span>
+      ) : (
+        ""
+      )}
       <span>{remainingPart}</span>
     </span>
   );
