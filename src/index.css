@@ -68,3 +68,14 @@ h6 {
 ::-webkit-scrollbar-thumb:hover {
   background: #555; /* Color of the thumb on hover */
 }
+
+/* react-select */
+.select__control {
+  min-height: 45px !important;
+  border-radius: 8px !important;
+  border-color: rgb(156 163 175) !important;
+}
+.select__indicator.select__clear-indicator {
+  cursor: pointer !important;
+  z-index: 10 !important;
+}
