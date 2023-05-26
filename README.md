@@ -22,6 +22,7 @@ If you'd like to contribute to Booklandia by adding your own favorite books and 
 - Think Again
 - Atomic Habits
 - Power of Habit
+- Psychology Of Persuasion
 <!-- BOOK TITLES END -->
 
 ## License
