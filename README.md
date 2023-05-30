@@ -23,6 +23,7 @@ If you'd like to contribute to Booklandia by adding your own favorite books and 
 - Atomic Habits
 - Power of Habit
 - Psychology Of Persuasion
+- Lateral Thinking
 <!-- BOOK TITLES END -->
 
 ## License
