@@ -1,4 +1,5 @@
 import PropTypes from "prop-types";
+import { LazyLoadImage } from "react-lazy-load-image-component";
 import { useNavigate } from "react-router-dom";
 
 const BookCard = ({ imgSrc, title, summary, genres }) => {
@@ -8,11 +9,12 @@ const BookCard = ({ imgSrc, title, summary, genres }) => {
       className="max-w-sm rounded cursor-pointer mb-6 shadow-2xl"
       onClick={() => navigate(`/Booklandia/book/${title}`)}
     >
-      <img
+      <LazyLoadImage
+        alt={title}
         className="w-full h-80 object-fit"
         src={`images/books/${imgSrc}`}
-        alt={title}
       />
+
       <div className="px-6 py-4 overflow-y-auto h-[265px]">
         <div className="font-bold text-2xl mb-2">{title}</div>
         <p className="text-gray-700 text-base">{summary}</p>
