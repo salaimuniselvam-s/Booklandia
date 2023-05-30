@@ -2,6 +2,7 @@ import { useParams } from "react-router-dom";
 import { BOOKS } from "./constants";
 import { useEffect } from "react";
 import { formatAnalogy } from "./utils/formatString";
+import AnimateOnScroll from "./utils/AnimateOnScroll";
 
 const Book = () => {
   const { bookName } = useParams();
@@ -30,6 +31,7 @@ const Book = () => {
             </div>
           </div>
           <div className="p-3 font-medium">{book.summary}</div>
+
           <div className="p-3 font-normal">
             <ul className="list-disc list-inside">
               {book.description.map((desc, index) => (
@@ -39,38 +41,41 @@ const Book = () => {
               ))}
             </ul>
           </div>
-
-          <div className="p-3 mt-3 mb-9 bg-slate-50 border border-gray-200 rounded-lg shadow">
-            <div className="text-2xl p-1 font-semibold text-center">
-              <i className="fa-solid fa-thought-bubble"></i> Analogies
+          <AnimateOnScroll>
+            <div className="p-3 mt-3 mb-9 bg-slate-50 border border-gray-200 rounded-lg shadow">
+              <div className="text-2xl p-1 font-semibold text-center">
+                <i className="fa-solid fa-thought-bubble"></i> Analogies
+              </div>
+              <div>
+                {book.Analogies.map((analogy, index) => (
+                  <p
+                    className="p-3 my-3 bg-white border border-gray-200 rounded-lg shadow hover:bg-gray-100"
+                    key={index}
+                  >
+                    {formatAnalogy(analogy)}
+                  </p>
+                ))}
+              </div>
             </div>
-            <div>
-              {book.Analogies.map((analogy, index) => (
-                <p
-                  className="p-3 my-3 bg-white border border-gray-200 rounded-lg shadow hover:bg-gray-100"
-                  key={index}
-                >
-                  {formatAnalogy(analogy)}
-                </p>
-              ))}
+          </AnimateOnScroll>
+          <AnimateOnScroll fromRight={true}>
+            <div className="p-3 mb-6 bg-slate-50 border border-gray-200 rounded-lg shadow">
+              <div className="text-2xl p-1 font-semibold text-center">
+                <i className="fa-sharp fa-solid fa-book-open-reader mr-2"></i>
+                Quotes
+              </div>
+              <div>
+                {book.quotes.map((quote, index) => (
+                  <p
+                    className="p-3 my-3 bg-white border border-gray-200 rounded-lg shadow hover:bg-gray-100 "
+                    key={index}
+                  >
+                    {`"${quote}"`}
+                  </p>
+                ))}
+              </div>
             </div>
-          </div>
-          <div className="p-3 mb-6 bg-slate-50 border border-gray-200 rounded-lg shadow">
-            <div className="text-2xl p-1 font-semibold text-center">
-              <i className="fa-sharp fa-solid fa-book-open-reader mr-2"></i>
-              Quotes
-            </div>
-            <div>
-              {book.quotes.map((quote, index) => (
-                <p
-                  className="p-3 my-3 bg-white border border-gray-200 rounded-lg shadow hover:bg-gray-100 "
-                  key={index}
-                >
-                  {`"${quote}"`}
-                </p>
-              ))}
-            </div>
-          </div>
+          </AnimateOnScroll>
         </div>
       ))}
     </div>

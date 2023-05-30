@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 
 const Navbar = () => {
   return (
-    <nav className="bg-white border-gray-200 dark:bg-gray-700">
+    <nav className="bg-white sticky top-0 z-50 w-full shadow-md  border-gray-200 dark:bg-gray-700">
       <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto py-4 px-6">
         <span className="flex items-center">
           <span className="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">
