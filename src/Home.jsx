@@ -69,7 +69,11 @@ const Home = () => {
       </div>
 
       {/* Book Widgets */}
-      <div className="flex flex-wrap flex-col items-center sm:items-start sm:justify-center sm:flex-row gap-6 my-6 mx-3">
+      <div
+        className={`flex flex-wrap flex-col items-center sm:items-start ${
+          books.length > 1 && "justify-center"
+        } sm:flex-row gap-6 my-6 mx-3`}
+      >
         {books.map((book, index) => {
           return <BookCard key={index} {...book} />;
         })}

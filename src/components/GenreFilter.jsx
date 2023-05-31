@@ -75,7 +75,7 @@ const GenreFilter = ({ genres, isCheckedGenres, setGenre }) => {
               <li key={index}>
                 <div className="flex items-center">
                   <input
-                    id="checkbox-item-1"
+                    id={`checkbox-item-${index}`}
                     type="checkbox"
                     name={genre}
                     onChange={updateGenre}
@@ -83,7 +83,7 @@ const GenreFilter = ({ genres, isCheckedGenres, setGenre }) => {
                     className="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 rounded focus:ring-blue-500 dark:focus:ring-blue-600 focus:ring-2 "
                   />
                   <label
-                    htmlFor="checkbox-item-1"
+                    htmlFor={`checkbox-item-${index}`}
                     className="ml-2 text-sm font-medium text-gray-700"
                   >
                     {genre}

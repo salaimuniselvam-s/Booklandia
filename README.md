@@ -24,6 +24,7 @@ If you'd like to contribute to Booklandia by adding your own favorite books and 
 - Power of Habit
 - Psychology Of Persuasion
 - Lateral Thinking
+- How to Win Friends and Influence People
 <!-- BOOK TITLES END -->
 
 ## License
