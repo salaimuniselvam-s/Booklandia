@@ -1,5 +1,6 @@
 import { FourtyEightLawsOfPower } from "./48_Laws_Of_Power.js";
 import { AtomicHabits } from "./Atomic_Habits.js";
+import { Cosmos } from "./Cosmos.js";
 import { freedomFromTheKnown } from "./Freedom_From_The_Known.js";
 import { howToWinFriendsAndInfluencePeople } from "./How_To_Win_Friends_And_Influence_People.js";
 import { lateralThinking } from "./Lateral_Thinking.js";
@@ -20,4 +21,5 @@ export const BOOKS = [
   PsychologyOfPersuasion,
   lateralThinking,
   howToWinFriendsAndInfluencePeople,
+  Cosmos,
 ];

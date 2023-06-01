@@ -25,6 +25,7 @@ If you'd like to contribute to Booklandia by adding your own favorite books and 
 - Psychology Of Persuasion
 - Lateral Thinking
 - How to Win Friends and Influence People
+- Cosmos
 <!-- BOOK TITLES END -->
 
 ## License

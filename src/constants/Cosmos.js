@@ -1,0 +1,103 @@
+export const Cosmos = {
+  title: "Cosmos",
+  author: "Carl Sagan",
+  authorUrl: "https://en.wikipedia.org/wiki/Carl_Sagan",
+  summary:
+    '"Cosmos" by Carl Sagan is a captivating exploration of the universe, blending science with philosophy. From the origins of life to the possibility of extraterrestrial existence, Sagan covers a wide range of topics. He highlights the contributions of scientists throughout history and delves into astrophysics, including black holes and the expansion of the universe. Sagan also emphasizes the importance of scientific literacy and critical thinking. With its thought-provoking content and inspiring perspective, "Cosmos" invites readers to ponder the mysteries of the cosmos and our place within it.',
+  genres: ["Astronomy", "Cosmology", "History of science"],
+  imgSrc: "Cosmos.jpg",
+  description: [
+    "The Shores of the Cosmic Ocean: Sagan sets the stage by discussing the vastness of the universe and the importance of scientific inquiry in understanding it. He highlights the human desire to explore and discover.",
+
+    "One Voice in the Cosmic Fugue: Sagan explores the origins of life on Earth, discussing the processes of evolution and natural selection. He considers the possibility of life existing elsewhere in the universe.",
+
+    "The Harmony of the Worlds: Sagan delves into the history of scientific discovery, from ancient civilizations to the Renaissance. He discusses the contributions of famous scientists such as Copernicus, Kepler, and Newton, highlighting their impact on our understanding of the cosmos.",
+
+    "Heaven and Hell: Sagan explores the history of astronomy, including the development of telescopes and our expanding knowledge of the solar system. He examines the planets, their moons, and the possibility of extraterrestrial life.",
+
+    "Blues for a Red Planet: This chapter focuses on Mars, discussing our fascination with the Red Planet and the exploration missions that have been undertaken. Sagan explores the potential for past or present life on Mars and the challenges of human exploration.",
+
+    "Travellers' Tales: Sagan takes readers on a journey through the cosmos, discussing the vast distances between celestial objects and the challenges of interstellar travel. He explores the possibilities of visiting other star systems and encountering extraterrestrial civilizations.",
+
+    "The Backbone of Night: Sagan delves into the nature of light, discussing its properties and how it allows us to study the universe. He explores the electromagnetic spectrum and the different types of radiation emitted by celestial objects.",
+
+    "Travels in Space and Time: This chapter covers the concept of spacetime and the nature of the universe's expansion. Sagan explains the Big Bang theory and discusses the cosmic microwave background radiation.",
+
+    "The Lives of the Stars: Sagan delves into stellar evolution, explaining how stars form, live, and die. He discusses the different types of stars, including their life cycles, nuclear reactions, and the formation of elements.",
+
+    "The Edge of Forever: Sagan explores the concept of black holes and their role in the universe. He discusses their formation, properties, and their gravitational effects on surrounding matter.",
+
+    "The Persistence of Memory: This chapter delves into the history of life on Earth, from its origins in the primordial soup to the evolution of complex organisms. Sagan discusses the role of DNA, natural selection, and the interconnectedness of all life.",
+
+    "Encyclopedia Galactica: Sagan explores the possibilities of advanced civilizations in the universe, discussing the Drake equation, the search for extraterrestrial intelligence (SETI), and the challenges of interstellar communication.",
+
+    "Who Speaks for Earth?: In the final chapter, Sagan reflects on the impact of science on society and the importance of scientific literacy. He emphasizes the need for responsible stewardship of our planet and the implications of our actions on a cosmic scale.",
+  ],
+  quotes: [
+    "The cosmos is all that is or ever was or ever will be.",
+
+    "We are a way for the cosmos to know itself.",
+
+    "The nitrogen in our DNA, the calcium in our teeth, the iron in our blood, the carbon in our apple pies were made in the interiors of collapsing stars. We are made of starstuff.",
+
+    "For small creatures such as we, the vastness is bearable only through love.",
+
+    "The beauty of a living thing is not the atoms that go into it, but the way those atoms are put together.",
+
+    "Extraordinary claims require extraordinary evidence.",
+
+    "The universe seems neither benign nor hostile, merely indifferent to the concerns of such puny creatures as we.",
+
+    "If you wish to make an apple pie from scratch, you must first invent the universe.",
+
+    "We are star stuff harvesting star light.",
+
+    "We are like butterflies who flutter for a day and think it is forever.",
+    "The cosmos is within us. We are made of star-stuff. We are a way for the universe to know itself.",
+
+    "Science is not only compatible with spirituality; it is a profound source of spirituality.",
+
+    "Every one of us is, in the cosmic perspective, precious. If a human disagrees with you, let him live. In a hundred billion galaxies, you will not find another.",
+
+    "Imagination will often carry us to worlds that never were. But without it, we go nowhere.",
+
+    "Somewhere, something incredible is waiting to be known.",
+
+    "The sky calls to us. If we do not destroy ourselves, we will one day venture to the stars.",
+
+    "We can judge our progress by the courage of our questions and the depth of our answers, our willingness to embrace what is true rather than what feels good.",
+
+    "We are star stuff which has taken its destiny into its own hands.",
+
+    "Understanding is a kind of ecstasy.",
+
+    "Science is a way of thinking much more than it is a body of knowledge.",
+    "We have lingered long enough on the shores of the cosmic ocean. We are ready at last to set sail for the stars.",
+
+    "The universe is a pretty big place. If it's just us, seems like an awful waste of space.",
+
+    "Skeptical scrutiny is the means, in both science and religion, by which deep insights can be winnowed from deep nonsense.",
+
+    "The absence of evidence is not the evidence of absence.",
+  ],
+  Analogies: [
+    'Cosmic Calendar: Sagan introduces the concept of the "cosmic calendar" to illustrate the vastness of cosmic time. He compresses the entire history of the universe into a single year, with the Big Bang occurring on January 1st and the present moment falling at the end of December 31st. This analogy allows readers to comprehend the relative brevity of human existence in the grand timeline of the cosmos.',
+
+    'Pale Blue Dot: Sagan famously refers to Earth as a "pale blue dot" in the vastness of space. This analogy highlights the fragility and insignificance of our planet when viewed from a cosmic perspective. It evokes a sense of humility and calls for the preservation and stewardship of our home.',
+
+    "Cosmic Ocean: Sagan compares the universe to an ocean, with its vast expanse and numerous celestial bodies. Just as the ocean contains countless life forms, the cosmic ocean represents the potential for life to exist elsewhere in the universe. This analogy captures the diversity and possibilities within the cosmos.",
+
+    "The Library of Alexandria: Sagan likens the accumulated knowledge of humanity to the ancient Library of Alexandria, a vast repository of information. He emphasizes the importance of preserving and expanding our collective knowledge, highlighting the tragic loss caused by the destruction of the library and the ongoing need for scientific exploration and discovery.",
+
+    'Flatland: In discussing higher dimensions and the limitations of human perception, Sagan refers to the book "Flatland" by Edwin A. Abbott. He uses the analogy of a two-dimensional world to explain how our limited three-dimensional perspective can hinder our understanding of higher-dimensional concepts.',
+    "The Cosmic Year: Sagan likens the age of the universe to a cosmic year, where each day represents roughly 40 million years. This analogy helps to convey the immense timescales involved in cosmic events and the relatively short duration of human existence.",
+
+    "Spaceship Earth: Sagan compares the Earth to a spaceship, highlighting the finite and fragile nature of our planet's resources. This analogy emphasizes the need for responsible stewardship and sustainable practices to ensure the well-being of future generations.",
+
+    "The Dragon in My Garage: Sagan uses the analogy of a dragon living in a garage to discuss the scientific approach to skepticism. Just as extraordinary claims require extraordinary evidence to be considered valid, the presence of a dragon in the garage would necessitate specific evidence to be convincing. This analogy encourages critical thinking and rational examination of ideas.",
+
+    "The Cosmic Serpent: Sagan uses the image of a cosmic serpent swallowing its own tail, known as the Ouroboros, to describe the concept of a closed universe. The serpent swallowing its tail represents the idea that the universe may have a finite volume but no defined boundary, and objects within it would ultimately return to their starting point.",
+
+    'The Ship of the Imagination: Throughout the book, Sagan takes readers on a metaphorical journey aboard the "Ship of the Imagination." This ship represents the vessel of human exploration and scientific inquiry, carrying us through the cosmos and allowing us to discover the wonders of the universe. The ship serves as a unifying thread throughout the book, connecting various scientific concepts and providing a sense of adventure.',
+  ],
+};
