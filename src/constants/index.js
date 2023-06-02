@@ -7,6 +7,7 @@ import { lateralThinking } from "./Lateral_Thinking.js";
 import { MansSearchForMeaning } from "./Mans_Search_For_Meaning.js";
 import { PowerOfHabit } from "./Power_Of_Habit.js";
 import { PsychologyOfPersuasion } from "./Psychology_Of_Persuasion.js";
+import { Sapiens } from "./Sapiens.js";
 import { ThinkAgain } from "./Think_Again.js";
 import { thinkAndGrowRich } from "./Think_And_Grow_Rich.js";
 
@@ -22,4 +23,5 @@ export const BOOKS = [
   lateralThinking,
   howToWinFriendsAndInfluencePeople,
   Cosmos,
+  Sapiens,
 ];

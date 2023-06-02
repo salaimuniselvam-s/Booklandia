@@ -1,0 +1,73 @@
+export const Sapiens = {
+  title: "Sapiens - A Brief History of Humankind",
+  author: "Yuval Noah Harari",
+  authorUrl: "https://en.wikipedia.org/wiki/Yuval_Noah_Harari",
+  summary:
+    '"Sapiens: A Brief History of Humankind" by Yuval Noah Harari is a captivating exploration of human history, covering the cognitive and agricultural revolutions, the emergence of complex societies, the influence of science and technology, and contemplating the future of our species. It delves into the significance of the cognitive revolution in enabling cooperation and the agricultural revolution in transforming human societies. The book examines the role of shared beliefs and imagined orders in shaping large-scale societies, and highlights the impact of scientific advancements throughout history. Harari concludes with reflections on the potential consequences of emerging technologies for humanity\'s future.',
+  genres: ["History", "Anthropology", "Sociology"],
+  imgSrc: "Sapiens.jpg",
+  description: [
+    "Cognitive Revolution: The cognitive revolution, which occurred around 70,000 years ago, marked a significant leap in human history. It brought about the development of language and the ability to transmit knowledge, enabling early humans to form larger social groups and share collective beliefs and narratives.",
+
+    "Agricultural Revolution: The agricultural revolution, starting around 10,000 years ago, led to the transition from hunting and gathering to settled farming communities. It involved the domestication of plants and animals, allowing for a more stable food supply and the establishment of permanent settlements. This shift had profound social, economic, and environmental impacts.",
+
+    "Emergence of Complex Societies: Harari explores how human societies evolved from small, intimate communities to vast empires and nation-states. He delves into the role of shared myths, religions, and imagined orders in uniting large numbers of individuals under a common identity, fostering cooperation and enabling the development of complex social structures.",
+
+    "Impact of Science and Technology: The book delves into the impact of scientific discoveries and technological advancements on human history. It discusses the advent of writing, the invention of money, and the transformative effects of the Industrial Revolution. These developments have shaped economies, social structures, and the global landscape, leading to significant societal changes.",
+
+    "The Future of Homo Sapiens: Harari contemplates the future of humanity, considering the potential implications of emerging technologies. He explores topics such as artificial intelligence, genetic engineering, and the merging of humans with technology. Harari raises ethical and philosophical questions about the direction of human progress and the challenges and possibilities that lie ahead.",
+  ],
+  quotes: [
+    "The Cognitive Revolution - the emergence of fictive language - eventually enabled Homo sapiens to communicate about things that don’t really exist.",
+    "The Agricultural Revolution was history’s biggest fraud. Who was responsible? Neither kings, nor priests, nor merchants. The culprits were a handful of plant species, including wheat, rice, and potatoes.",
+    "The currency of evolution is neither hunger nor pain, but rather copies of DNA helixes.",
+    "Ever since the Cognitive Revolution, Sapiens have thus been living in a dual reality. On the one hand, the objective reality of rivers, trees, and lions; and on the other hand, the imagined reality of gods, nations, and corporations.",
+    "The ability to speak about fictions is the most unique feature of Sapiens language.",
+    "Money is accordingly a system of mutual trust, and not just any system of mutual trust: money is the most universal and most efficient system of mutual trust ever devised.",
+    "The truly unique trait of Sapiens is our ability to create and believe fiction. All other animals use their communication system to describe reality. We use our communication system to create new realities.",
+    "To change an existing imagined order, we must first believe in an alternative imagined order.",
+    "One of history’s few iron laws is that luxuries tend to become necessities and to spawn new obligations.",
+    "Culture tends to argue that it forbids only that which is unnatural. But from a biological perspective, nothing is unnatural. Whatever is possible is by definition also natural.",
+    "We study history not to know the future but to widen our horizons, to understand that our present situation is neither natural nor inevitable, and that we consequently have many more possibilities before us than we imagine.",
+    "Fiction has enabled us not merely to imagine things, but to do so collectively.",
+    "Large numbers of strangers can cooperate successfully by believing in common myths.",
+    "Culture tends to argue that it forbids only that which is unnatural. But from a biological perspective, nothing is unnatural. Whatever is possible is by definition also natural.",
+    "Homo sapiens is just not built for satisfaction. Human happiness depends less on objective conditions and more on our own expectations.",
+    "A good rule of thumb is 'Biology enables, Culture forbids.'",
+    "You could never convince a monkey to give you a banana by promising him limitless bananas after death in monkey heaven.",
+    "People easily understand that 'primitives' cement their social order by believing in ghosts and spirits, and gathering each full moon to dance together around the campfire. What we fail to appreciate is that our modern institutions function on exactly the same basis.",
+    "The story of the agricultural revolution is the story of how Homo sapiens domesticated the plants and animals around us, and how these new life-forms transformed us.",
+    "Evolution has made Homo sapiens, like other social mammals, a xenophobic creature. Sapiens instinctively divide humanity into two parts, 'we' and 'they'.",
+    "We did not domesticate wheat. It domesticated us.",
+    "Sapiens acquired the ability to cooperate flexibly in large numbers because we can create and believe fiction.",
+    "Scientists estimate that a mere 150,000 years ago, there were at least six different human species on Earth. Today, Homo sapiens is the only one left.",
+    "In a world deluged by irrelevant information, clarity is power.",
+    "The Agricultural Revolution certainly enlarged the sum total of food at the disposal of humankind, but the extra food did not translate into a better diet or more leisure. Rather, it translated into population explosions and pampered elites.",
+    "The cognitive revolution is accordingly the point when history declared its independence from biology.",
+  ],
+  Analogies: [
+    "The Tree of Knowledge: Harari likens the cognitive revolution to humans climbing a tree of knowledge. Just as climbing a tree provides a broader view of the surroundings, the development of language and knowledge allowed early humans to gain a new perspective and navigate the world more effectively.",
+
+    "The Agricultural Trap: Harari compares the transition from hunting and gathering to agriculture to a trap. While agriculture brought stability and surplus food production, it also led to population growth, labor-intensive farming practices, and increased social complexities. Harari argues that humans unintentionally fell into this trap, forever changing their way of life.",
+
+    'Imagined Orders: Harari introduces the concept of "imagined orders" to describe the collective beliefs and societal structures that humans create. He likens imagined orders, such as religions, nations, and money, to fictional stories that shape human behavior and allow large-scale cooperation beyond immediate personal relationships.',
+
+    "The Dataist Revolution: Harari introduces the concept of a potential future revolution where data and algorithms govern human society. He draws an analogy to the humanist revolution, which placed humans at the center of the universe, and proposes that the emerging dominance of data and algorithms could shift the focus away from human decision-making and control.",
+
+    "The Fountain of Culture: Harari describes culture as a fountain that continuously generates new ideas, beliefs, and practices. Just as a fountain sprouts new water droplets, culture perpetually produces fresh concepts and customs that shape human society.",
+
+    "The Credit System: Harari likens the concept of money and credit to a shared fiction that enables trust and facilitates economic transactions. He explains that money is valuable because people believe it has value, similar to how a piece of paper holds worth due to the collective agreement that it represents something of value.",
+
+    "The Dance of Genes and Culture: Harari uses the metaphor of a dance to describe the complex interplay between genetic evolution and cultural evolution. Genes provide the biological framework, while culture guides and shapes human behavior and society, much like dancers moving in harmony with a predefined choreography.",
+
+    "The Historical Game: Harari compares history to a game where the rules constantly change. Just as players adapt their strategies based on the evolving rules, societies and individuals must navigate and adjust to the changing dynamics and circumstances of history to thrive and survive.",
+
+    "The Social Organism: Harari likens human societies to complex organisms. Just as individual cells work together to form a cohesive organism, humans cooperate and coordinate their actions to create functioning societies with interconnected systems and structures.",
+
+    "The Web of Interdependence: Harari describes the intricate web of interdependence among humans, animals, and plants. He compares this web to an ecosystem, where each component relies on others for survival and well-being. Humans depend on agriculture, which depends on fertile soil, which depends on certain climatic conditions, creating a delicate balance of interdependence.",
+
+    "The Matrix of Power: Harari uses the analogy of a matrix to depict the intricate network of power dynamics within societies. He argues that power is not centralized in a single entity but rather distributed among various institutions and individuals, forming a complex web of influence and control.",
+
+    "The Historical Sailing Ship: Harari uses the analogy of a historical sailing ship to describe how cultural and technological changes propel human societies forward. Just as a ship requires the combination of wind, sails, and navigational skills to move forward, human societies progress through a combination of cultural developments, technological advancements, and societal adaptations.",
+  ],
+};

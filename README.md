@@ -26,6 +26,7 @@ If you'd like to contribute to Booklandia by adding your own favorite books and 
 - Lateral Thinking
 - How to Win Friends and Influence People
 - Cosmos
+- Sapiens - A Brief History of Humankind
 <!-- BOOK TITLES END -->
 
 ## License
