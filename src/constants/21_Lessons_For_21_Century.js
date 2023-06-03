@@ -1,0 +1,125 @@
+export const TwentyOne_Lessons_For_21_Century = {
+  title: "21 Lessons for 21 Century",
+  author: "Yuval Noah Harari",
+  authorUrl: "https://en.wikipedia.org/wiki/Yuval_Noah_Harari",
+  summary:
+    ' "21 Lessons for the 21st Century" by Yuval Noah Harari provides insights into the challenges of our time, including the dangers of technology, the rise of algorithms, the crisis of truth, nationalism versus globalization, the future of work, and the need for a new educational paradigm. It explores the ethical implications of biotechnology, the evolving role of religion, and the importance of critical thinking in navigating the complexities of the modern world.',
+  genres: ["Popular Science", "Non-Fiction"],
+  imgSrc: "21_Lessons_for_21_Century.jpg",
+  description: [
+    "Disillusionment with technology: Harari explores the potential consequences of technological advancements, such as AI and biotechnology, and urges readers to consider their impact on society, ethics, and human existence.",
+
+    "The rise of algorithms: The book dives into the pervasive influence of algorithms in shaping our choices, beliefs, and interactions, emphasizing the need to understand their workings and implications for our individual autonomy and collective decision-making.",
+
+    "Fake news and the crisis of truth: Harari delves into the challenges posed by the proliferation of fake news and the erosion of trust in traditional media, emphasizing the importance of critical thinking and media literacy in navigating the information age.",
+
+    "Nationalism vs. globalization: The tension between nationalism and globalization is explored, examining the rise of nationalism as a response to globalization and its potential consequences for international cooperation, cultural diversity, and global challenges.",
+
+    "The future of work: Harari investigates the impact of automation and AI on the job market, discussing potential scenarios of widespread unemployment and the need for societies to adapt by redefining work, embracing lifelong learning, and fostering resilience.",
+
+    "Education in the 21st century: The book highlights the necessity of transforming education to equip individuals with critical thinking, adaptability, and emotional intelligence, rather than focusing solely on rote knowledge, in order to thrive in a rapidly changing world.",
+
+    "The ethics of biotechnology: Harari explores the ethical dilemmas arising from advancements in biotechnology, such as genetic engineering and biohacking, urging global dialogue and collective decision-making to ensure responsible and inclusive development.",
+
+    "Religion in the modern world: The evolving role of traditional religions and the need for new stories and narratives to address contemporary challenges and foster meaning and cohesion in diverse societies are examined.",
+
+    "Secularism and humanism: Harari discusses alternative ethical frameworks that can provide a sense of purpose and guide human behavior in secular societies, emphasizing the importance of humanism and the universal values it promotes.",
+
+    "Meditation and mindfulness: The potential benefits of meditation and mindfulness practices in promoting mental well-being, focus, and self-awareness are explored, highlighting their relevance in an age of information overload and constant distractions.",
+
+    "Resilience and mental health: The book discusses the importance of cultivating resilience and nurturing mental health amidst societal changes, digital disruptions, and the pressures of the modern world.",
+
+    "Immigration and refugees: Harari examines the complexities of global migration, addressing the challenges and opportunities presented by immigration and the need for compassionate and pragmatic responses to refugee crises.",
+
+    "Terrorism and war: The causes and dynamics of terrorism and conflicts are analyzed, offering insights into potential solutions, such as addressing root causes, promoting inclusive societies, and embracing diplomacy.",
+
+    "Justice and inequality: The growing disparities in wealth, opportunities, and power are explored, along with discussions on reimagining justice systems and creating more equitable societies.",
+
+    "Post-truth politics: The impact of political narratives, propaganda, and the spread of misinformation on democratic processes is examined, underscoring the importance of critical thinking, fact-checking, and informed citizenship.",
+
+    "Science fiction and the future: The role of science fiction in shaping our imagination, influencing technological advancements, and providing a framework for envisioning potential futures is explored, emphasizing the significance of storytelling and creative thinking.",
+
+    "Empathy and compassion: Harari emphasizes the importance of cultivating empathy, understanding, and compassion to bridge divides, foster cooperation, and address global challenges collectively.",
+
+    "Evolution and biological engineering: The ethical dilemmas and potential consequences of humanity's ability to manipulate our own biology through genetic engineering, life extension, and other means are discussed, urging responsible decision-making and global dialogue on the boundaries of biological engineering.",
+
+    "The meaning of life: Harari reflects on the search for meaning and purpose in a secular world, exploring different philosophical and spiritual perspectives and highlighting the importance of individual introspection and finding personal meaning in the face of existential questions.",
+
+    "Meditation on death: The book encourages contemplation of mortality and the awareness of our finite existence, exploring how the acknowledgment of death can shape our values, priorities, and appreciation for life.",
+
+    "Resilience and hope: Harari emphasizes the significance of resilience and hope in navigating the challenges of the 21st century, acknowledging the difficulties we face while also highlighting examples of human progress and encouraging a mindset that looks towards a brighter future.",
+  ],
+  quotes: [
+    "In a world deluged by irrelevant information, clarity is power.",
+
+    "In the twenty-first century, we need to develop a new kind of literacy: the ability to navigate the flood of information and make sense of it.",
+
+    "Liberty and equality are not the same. Equality cannot be measured in absolute terms; it can only be gauged relative to other factors. Liberty and equality are not conflicting values; they are two complementary values that go hand in hand.",
+
+    "There are no gods in the universe, no nations, no money, no human rights, no laws, and no justice outside the common imagination of human beings.",
+
+    "The biggest question facing humankind is not how to gain power, but how to use power wisely.",
+
+    "The first step is to know that we are biased. The second step is to try and understand the biases of those we disagree with.",
+
+    "Technology is never deterministic. It can be used to liberate us from the chains of the past, or it can be used to enslave us further.",
+
+    "Justice isn't about equality; it's about creating a harmonious society in which different people can cooperate and thrive.",
+
+    "Happiness does not really depend on objective conditions of wealth, health or even community. Rather, it depends on the correlation between objective conditions and subjective expectations.",
+
+    "In a world flooded with information, the scarcest resource is not ideas or even attention, but the ability to make sense of them.",
+
+    "Terrorism is like mosquitoes. The mosquito is vastly inferior to the human, but it can make the human dance to its tune.",
+    "Religion is a deal. 'I will give up some of my freedom of thought and action, and in return, I will receive social support and meaning.'",
+    "Culture tends to argue that it forbids only that which is unnatural. But from a biological perspective, nothing is unnatural. Whatever is possible is by definition also natural.",
+    "Science is not just about predicting the future, but also about understanding the present and the past.",
+    "Humans certainly have a knack for believing in fiction. Sapiens is a post-truth species, whose power depends on creating and believing fictions.",
+    "Science fiction is not only good at thinking about the future, it can also throw our past into sharp relief. It forces us to think about what in our present society is so important that we want to preserve it for all eternity.",
+    "The past is never dead. It's not even past. We carry it around with us, and it influences every aspect of our lives.",
+    "When you grow accustomed to dismissing all tales of the supernatural as legends, myths or fantasies, you lose the natural human inclination and ability to distinguish between fiction and reality in general.",
+    "In the pursuit of health and happiness, the mindless masses are unwittingly creating ever more comfortable prisons.",
+    "You could argue that the basic story of history is the story of gradual humanisation. In politics, this meant replacing the chaotic rule of kings and emperors with more orderly systems such as republics and democracies.",
+    "The quality of our questions determines the quality of our answers.",
+    "The notion of 'free will' doesn't mean that I can do whatever I want. It means I can choose between options and reflect on those choices.",
+    "We are all members of the same flawed species, and nobody is above human error.",
+    "Inequality is not the same as unfairness. Only humans can perceive fairness, but nature doesn't know what fairness is.",
+    "The study of history is a powerful antidote to contemporary arrogance. It teaches you to beware of grand designs.",
+    "If we want to understand our place in the world, we need to reflect on uncomfortable truths rather than seek comforting myths.",
+    "In the 21st century, the best career choice would be to find a job that cannot be automated.",
+    "Sapiens rule the world because we are the only animals that can cooperate flexibly in large numbers.",
+    "Culture is not your friend. It's not your enemy either. But it's a powerful force that shapes your life.",
+    "If you want reliable information, pay good money for it.",
+  ],
+  Analogies: [
+    "The Dance of the Veils: Harari uses the analogy of a dance performance with veils to describe the layers of reality and how humans perceive and interpret the world. He suggests that each person's reality is like a dance of veils, shaped by their subjective experiences, beliefs, and biases.",
+
+    "The Highway and the Jungle: Harari compares the rapid advancements in technology and globalization to a highway, while the traditional structures and norms of society are likened to a jungle. This analogy highlights the tension between the benefits and risks of progress and the need to navigate the challenges of a changing world.",
+
+    "The Temple and the Marketplace: Harari uses the analogy of a temple and a marketplace to represent the realms of science and religion. The temple represents the search for spiritual meaning and transcendence, while the marketplace symbolizes the pursuit of knowledge and material progress. He discusses how these two domains can coexist and influence each other.",
+
+    "The Movie Theater: Harari likens the narratives and stories that shape our understanding of the world to a movie theater. He suggests that societies are built on shared fictions, similar to the collective suspension of disbelief when watching a movie. This analogy emphasizes the power of narratives in shaping our perceptions and behaviors.",
+
+    "The Ghost in the Machine: Harari uses the concept of a ghost in the machine to discuss the nature of consciousness and the mind. He suggests that the mind is not an independent entity separate from the body, but rather an emergent property of the complex workings of the brain and nervous system.",
+
+    " The Storyteller and the Editor: Harari uses the analogy of a storyteller and an editor to explore the narratives that shape our understanding of the world. The storyteller represents our subjective experiences and emotions, while the editor symbolizes our rationality and critical thinking. Harari suggests that finding a balance between the two is crucial for navigating the complexities of the modern world.",
+
+    "The Chessboard and the Game of Life: Harari compares life to a game of chess played on a vast, complex chessboard. He discusses how individuals and societies make decisions, strategize, and navigate the constraints and opportunities presented by the ever-changing board, highlighting the need for foresight and adaptability.",
+
+    "The Hummingbird and the Elephant: Harari uses the analogy of a hummingbird and an elephant to discuss the power of attention and the challenges of information overload. The hummingbird represents our ability to focus on small, immediate tasks, while the elephant symbolizes our capacity for deep contemplation and reflection. Harari explores how finding a balance between these two modes of thinking is essential in the digital age.",
+
+    "The Car and the Driver: Harari compares the human body to a car, with the driver representing the conscious mind. He discusses how our decisions and behaviors are influenced by both conscious and unconscious processes, highlighting the importance of self-awareness and understanding the underlying mechanisms that drive our actions.",
+
+    "The Sailing Ship and the Compass: Harari uses the analogy of a sailing ship and a compass to explore the nature of human agency and free will. The ship represents the individual's choices and actions, while the compass symbolizes the external factors and constraints that shape our lives. Harari discusses how understanding the interplay between agency and external forces can help us navigate the complexities of our existence.",
+
+    "The Venn Diagram: Harari uses the analogy of a Venn diagram to discuss the intersections and overlaps between different identities, cultures, and belief systems. He emphasizes the importance of embracing our shared humanity and finding common ground, even in the midst of diverse perspectives.",
+
+    "The Helicopter and the Zoom Lens: Harari compares the ability to zoom in and out of different levels of analysis to a helicopter and a zoom lens. This analogy highlights the need to balance the big-picture perspective with attention to detail when understanding complex issues.",
+
+    "The Maze and the Compass: Harari uses the analogy of a maze and a compass to explore the challenges of decision-making in an uncertain and complex world. He suggests that while we may not have a clear path forward, developing a reliable moral compass can help us navigate the ethical dilemmas and choices we face.",
+
+    "The Chess Player and the Chess Master: Harari compares individuals who are focused on short-term gains to chess players, while those who take a long-term perspective and consider broader implications are likened to chess masters. This analogy underscores the importance of strategic thinking and considering long-term consequences in our decisions.",
+
+    "The River and the Dam: Harari uses the analogy of a river and a dam to discuss the tension between individual freedom and collective responsibility. He explores the balance between personal autonomy and the need for societal structures to ensure stability, justice, and the common good.",
+  ],
+};

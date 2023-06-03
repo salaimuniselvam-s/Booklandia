@@ -27,6 +27,8 @@ If you'd like to contribute to Booklandia by adding your own favorite books and 
 - How to Win Friends and Influence People
 - Cosmos
 - Sapiens - A Brief History of Humankind
+- 21 Lessons for 21 Century
+- Homo Deus: A Brief History of Tomorrow
 <!-- BOOK TITLES END -->
 
 ## License

@@ -1,7 +1,9 @@
+import { TwentyOne_Lessons_For_21_Century } from "./21_Lessons_For_21_Century.js";
 import { FourtyEightLawsOfPower } from "./48_Laws_Of_Power.js";
 import { AtomicHabits } from "./Atomic_Habits.js";
 import { Cosmos } from "./Cosmos.js";
 import { freedomFromTheKnown } from "./Freedom_From_The_Known.js";
+import { HomoDeus } from "./HomoDeus.js";
 import { howToWinFriendsAndInfluencePeople } from "./How_To_Win_Friends_And_Influence_People.js";
 import { lateralThinking } from "./Lateral_Thinking.js";
 import { MansSearchForMeaning } from "./Mans_Search_For_Meaning.js";
@@ -24,4 +26,6 @@ export const BOOKS = [
   howToWinFriendsAndInfluencePeople,
   Cosmos,
   Sapiens,
+  TwentyOne_Lessons_For_21_Century,
+  HomoDeus,
 ];

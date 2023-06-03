@@ -4,7 +4,7 @@ import useElementOnScreen from "./useElementOnScreen";
 const AnimateOnScroll = ({
   children,
   reappear = false,
-  threshold = 0.2,
+  threshold = 0.1,
   fromRight,
 }) => {
   const [containerRef, isVisible] = useElementOnScreen({
