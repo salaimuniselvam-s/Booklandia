@@ -7,6 +7,7 @@ import { HomoDeus } from "./HomoDeus.js";
 import { howToWinFriendsAndInfluencePeople } from "./How_To_Win_Friends_And_Influence_People.js";
 import { lateralThinking } from "./Lateral_Thinking.js";
 import { MansSearchForMeaning } from "./Mans_Search_For_Meaning.js";
+import { Outliers } from "./Outliers.js";
 import { PowerOfHabit } from "./Power_Of_Habit.js";
 import { PsychologyOfPersuasion } from "./Psychology_Of_Persuasion.js";
 import { Sapiens } from "./Sapiens.js";
@@ -28,4 +29,5 @@ export const BOOKS = [
   Sapiens,
   TwentyOne_Lessons_For_21_Century,
   HomoDeus,
+  Outliers,
 ];

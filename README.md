@@ -29,6 +29,7 @@ If you'd like to contribute to Booklandia by adding your own favorite books and 
 - Sapiens - A Brief History of Humankind
 - 21 Lessons for 21 Century
 - Homo Deus: A Brief History of Tomorrow
+- Outliers
 <!-- BOOK TITLES END -->
 
 ## License
