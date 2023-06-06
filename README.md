@@ -30,6 +30,8 @@ If you'd like to contribute to Booklandia by adding your own favorite books and 
 - 21 Lessons for 21 Century
 - Homo Deus: A Brief History of Tomorrow
 - Outliers
+- Stillness is the Key
+- Mountain is You
 <!-- BOOK TITLES END -->
 
 ## License

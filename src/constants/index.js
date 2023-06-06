@@ -7,10 +7,12 @@ import { HomoDeus } from "./HomoDeus.js";
 import { howToWinFriendsAndInfluencePeople } from "./How_To_Win_Friends_And_Influence_People.js";
 import { lateralThinking } from "./Lateral_Thinking.js";
 import { MansSearchForMeaning } from "./Mans_Search_For_Meaning.js";
+import { Mountain_Is_You } from "./Mountain_Is_You.js";
 import { Outliers } from "./Outliers.js";
 import { PowerOfHabit } from "./Power_Of_Habit.js";
 import { PsychologyOfPersuasion } from "./Psychology_Of_Persuasion.js";
 import { Sapiens } from "./Sapiens.js";
+import { Stillness_is_the_key } from "./Stillness_is_the_key.js";
 import { ThinkAgain } from "./Think_Again.js";
 import { thinkAndGrowRich } from "./Think_And_Grow_Rich.js";
 
@@ -30,4 +32,6 @@ export const BOOKS = [
   TwentyOne_Lessons_For_21_Century,
   HomoDeus,
   Outliers,
+  Stillness_is_the_key,
+  Mountain_Is_You,
 ];
