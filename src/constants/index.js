@@ -8,6 +8,7 @@ import { howToWinFriendsAndInfluencePeople } from "./How_To_Win_Friends_And_Infl
 import { lateralThinking } from "./Lateral_Thinking.js";
 import { MansSearchForMeaning } from "./Mans_Search_For_Meaning.js";
 import { Mountain_Is_You } from "./Mountain_Is_You.js";
+import { Numbers_Dont_Lie } from "./Numbers_Dont_Lie.js";
 import { Outliers } from "./Outliers.js";
 import { PowerOfHabit } from "./Power_Of_Habit.js";
 import { PsychologyOfPersuasion } from "./Psychology_Of_Persuasion.js";
@@ -34,4 +35,5 @@ export const BOOKS = [
   Outliers,
   Stillness_is_the_key,
   Mountain_Is_You,
+  Numbers_Dont_Lie,
 ];

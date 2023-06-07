@@ -4,7 +4,7 @@ export const BookTitle = {
   authorUrl: "",
   summary: "",
   genres: [],
-  imgSrc: "",
+  imgSrc: ".jpg",
   description: [],
   quotes: [],
   Analogies: [],
