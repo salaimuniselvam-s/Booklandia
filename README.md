@@ -33,6 +33,7 @@ If you'd like to contribute to Booklandia by adding your own favorite books and 
 - Stillness is the Key
 - Mountain is You
 - Numbers Don't lie
+- The Untethered Soul: The Journey Beyond Yourself
 <!-- BOOK TITLES END -->
 
 ## License
