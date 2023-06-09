@@ -14,6 +14,7 @@ import { PowerOfHabit } from "./Power_Of_Habit.js";
 import { PsychologyOfPersuasion } from "./Psychology_Of_Persuasion.js";
 import { Sapiens } from "./Sapiens.js";
 import { Stillness_is_the_key } from "./Stillness_is_the_key.js";
+import { The_Courage_To_Be_Disliked } from "./The_Courage_To_Be_Disliked.js";
 import { ThinkAgain } from "./Think_Again.js";
 import { thinkAndGrowRich } from "./Think_And_Grow_Rich.js";
 import { untethered_soul } from "./Untethered_Soul.js";
@@ -38,4 +39,5 @@ export const BOOKS = [
   Mountain_Is_You,
   Numbers_Dont_Lie,
   untethered_soul,
+  The_Courage_To_Be_Disliked,
 ];

@@ -34,6 +34,7 @@ If you'd like to contribute to Booklandia by adding your own favorite books and 
 - Mountain is You
 - Numbers Don't lie
 - The Untethered Soul: The Journey Beyond Yourself
+- The Courage To Be Disliked
 <!-- BOOK TITLES END -->
 
 ## License
