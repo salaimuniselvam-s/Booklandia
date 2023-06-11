@@ -36,6 +36,7 @@ If you'd like to contribute to Booklandia by adding your own favorite books and 
 - The Untethered Soul: The Journey Beyond Yourself
 - The Courage To Be Disliked
 - Ikigai
+- Limitless
 <!-- BOOK TITLES END -->
 
 ## License

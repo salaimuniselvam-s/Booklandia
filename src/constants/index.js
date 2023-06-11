@@ -7,6 +7,7 @@ import { HomoDeus } from "./HomoDeus.js";
 import { howToWinFriendsAndInfluencePeople } from "./How_To_Win_Friends_And_Influence_People.js";
 import { Ikigai } from "./Ikigai.js";
 import { lateralThinking } from "./Lateral_Thinking.js";
+import { Limitless } from "./Limitless.js";
 import { MansSearchForMeaning } from "./Mans_Search_For_Meaning.js";
 import { Mountain_Is_You } from "./Mountain_Is_You.js";
 import { Numbers_Dont_Lie } from "./Numbers_Dont_Lie.js";
@@ -42,4 +43,5 @@ export const BOOKS = [
   untethered_soul,
   The_Courage_To_Be_Disliked,
   Ikigai,
+  Limitless,
 ];
