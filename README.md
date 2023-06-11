@@ -35,6 +35,7 @@ If you'd like to contribute to Booklandia by adding your own favorite books and 
 - Numbers Don't lie
 - The Untethered Soul: The Journey Beyond Yourself
 - The Courage To Be Disliked
+- Ikigai
 <!-- BOOK TITLES END -->
 
 ## License

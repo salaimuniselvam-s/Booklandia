@@ -5,6 +5,7 @@ import { Cosmos } from "./Cosmos.js";
 import { freedomFromTheKnown } from "./Freedom_From_The_Known.js";
 import { HomoDeus } from "./HomoDeus.js";
 import { howToWinFriendsAndInfluencePeople } from "./How_To_Win_Friends_And_Influence_People.js";
+import { Ikigai } from "./Ikigai.js";
 import { lateralThinking } from "./Lateral_Thinking.js";
 import { MansSearchForMeaning } from "./Mans_Search_For_Meaning.js";
 import { Mountain_Is_You } from "./Mountain_Is_You.js";
@@ -40,4 +41,5 @@ export const BOOKS = [
   Numbers_Dont_Lie,
   untethered_soul,
   The_Courage_To_Be_Disliked,
+  Ikigai,
 ];

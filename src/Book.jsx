@@ -18,7 +18,7 @@ const Book = () => {
           className="flex flex-col items-center  justify-center m-3"
           key={index}
         >
-          <div className="text-3xl font-semibold">
+          <div className="text-3xl text-center font-semibold">
             {book.title} <br />
             <div className="text-base text-center italic">
               by <br />{" "}
