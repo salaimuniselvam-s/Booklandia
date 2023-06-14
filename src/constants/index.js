@@ -1,6 +1,8 @@
 import { TwentyOne_Lessons_For_21_Century } from "./21_Lessons_For_21_Century.js";
 import { FourtyEightLawsOfPower } from "./48_Laws_Of_Power.js";
+import { FiveAmClub } from "./5Am_Club.js";
 import { AtomicHabits } from "./Atomic_Habits.js";
+import { CompoundEffect } from "./Compound_Effect.js";
 import { Cosmos } from "./Cosmos.js";
 import { Factfullness } from "./Factfullness.js";
 import { freedomFromTheKnown } from "./Freedom_From_The_Known.js";
@@ -46,4 +48,6 @@ export const BOOKS = [
   Ikigai,
   Limitless,
   Factfullness,
+  FiveAmClub,
+  CompoundEffect,
 ];

@@ -38,6 +38,8 @@ If you'd like to contribute to Booklandia by adding your own favorite books and 
 - Ikigai
 - Limitless
 - Factfullness
+- 5am Club
+- The Compound Effect
 <!-- BOOK TITLES END -->
 
 ## License
