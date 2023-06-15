@@ -1,0 +1,79 @@
+export const SevenHabits = {
+  title: "7 Habits of Highly Effective People",
+  author: "Stephen Covey",
+  authorUrl: "https://en.wikipedia.org/wiki/Stephen_Covey",
+  summary:
+    'The "7 Habits of Highly Effective People" by Stephen R. Covey offers a comprehensive framework for personal and professional growth. It emphasizes proactive behavior, encouraging individuals to take responsibility for their choices and actions. Beginning with the end in mind, the book emphasizes the importance of clarifying values, setting goals, and aligning actions with a clear sense of purpose. Prioritization and effective time management are highlighted as essential habits to focus on the most important tasks that align with one\'s values and goals. ',
+  genres: ["Self-help", "Personal Development"],
+  imgSrc: "7Habits.jpg",
+  description: [
+    "Be Proactive:Being proactive means taking responsibility for your life and choices. It involves focusing on what you can control and influence, rather than being reactive to external circumstances. By adopting a proactive mindset, you empower yourself to take initiative, make decisions, and create positive change.",
+
+    "Begin with the End in Mind: This habit emphasizes the importance of setting clear goals and envisioning the desired outcomes. By clarifying your personal values and defining a clear vision of where you want to go, you can align your actions and decisions with your long-term objectives. Covey suggests using personal mission statements to guide your daily choices and actions.",
+
+    'Put First Things First: This habit revolves around effective time management and prioritization. It involves organizing your time and activities based on importance and urgency. Covey introduces the concept of the "Time Management Matrix" to help individuals distinguish between urgent and important tasks, emphasizing the need to focus on activities that align with your goals and values.',
+
+    "Think Win-Win: This habit encourages seeking mutually beneficial solutions in all interactions. Covey promotes a collaborative mindset that focuses on creating win-win outcomes, where both parties involved can benefit and feel satisfied. It involves fostering relationships based on trust, empathy, and effective communication.",
+
+    "Seek First to Understand, Then to Be Understood: This habit emphasizes the importance of active listening and empathetic communication. Covey highlights the need to genuinely understand others by listening attentively, seeking to grasp their perspectives, and showing empathy. By doing so, you can build stronger relationships and find better solutions to problems.",
+
+    "Synergize: Synergy is the idea that the whole is greater than the sum of its parts. This habit encourages leveraging the strengths and differences of individuals to create innovative and collaborative solutions. Covey suggests that by valuing and respecting diverse viewpoints, you can tap into collective intelligence and achieve more significant results.",
+
+    "Sharpen the Saw: This final habit focuses on self-renewal and continuous personal development. Covey emphasizes the importance of taking care of oneself physically, mentally, emotionally, and spiritually. By regularly engaging in activities that promote growth, such as exercise, learning, reflection, and self-care, individuals can maintain balance and enhance their effectiveness.",
+  ],
+  Analogies: [
+    'The "Production" and "Production Capacity" Analogy: Covey compares individuals to producers and emphasizes the importance of balancing productivity ("production") with self-care and personal development ("production capacity").',
+
+    'The "Emotional Bank Account" Analogy: Covey introduces the idea of an emotional bank account, where trust and positive interactions contribute to the account\'s balance, while negative interactions or broken commitments deplete it. This analogy highlights the importance of building and maintaining trust in relationships.',
+
+    'The "P/PC Balance" Analogy: P/PC stands for Production/Production Capacity. Covey uses this analogy to explain the need to balance short-term results (production) with long-term sustainability and growth (production capacity).',
+
+    'The "Victim Mentality" Analogy: Covey contrasts a proactive mindset with a victim mentality, where individuals perceive themselves as being at the mercy of circumstances. This analogy encourages readers to take responsibility and adopt a proactive approach to life.',
+
+    'The "Private Victory" and "Public Victory" Analogy: Covey describes personal growth as a journey from private victory (self-mastery) to public victory (building effective relationships and contributing to society). This analogy highlights the importance of inner transformation before making a positive impact on others.',
+
+    'The "Four Quadrants" Analogy: Covey introduces the Time Management Matrix, which divides activities into four quadrants based on urgency and importance. This analogy helps individuals prioritize tasks and focus on activities that align with their goals and values.',
+
+    'The "Sharpening the Saw" Analogy: Covey uses the analogy of sharpening a saw to represent the importance of self-renewal and continuous personal development. Just as a blunt saw becomes ineffective, neglecting self-care and growth can hinder effectiveness in various aspects of life.',
+  ],
+  quotes: [
+    "Habit is the intersection of knowledge, skill, and desire.",
+
+    "You have to decide what your highest priorities are and have the courage—pleasantly, smilingly, non-apologetically—to say 'no' to other things. And the way you do that is by having a bigger 'yes' burning inside.",
+
+    "Most of us spend too much time on what is urgent and not enough time on what is important.",
+
+    "Seek first to understand, then to be understood.",
+
+    "Trust is the glue of life. It's the most essential ingredient in effective communication. It's the foundational principle that holds all relationships.",
+
+    "The key is not to prioritize what's on your schedule, but to schedule your priorities.",
+
+    "I am not a product of my circumstances. I am a product of my decisions.",
+
+    "To change ourselves effectively, we first had to change our perceptions.",
+
+    "Effectiveness lies in the balance—what I call the P/PC Balance. P stands for production of desired results, the golden eggs. PC stands for production capability, the ability or asset that produces the golden eggs.",
+
+    "Live out of your imagination, not your history.",
+    "Sow a thought, reap an action; sow an action, reap a habit; sow a habit, reap a character; sow a character, reap a destiny.",
+
+    "The key is not to prioritize what's on your schedule, but to schedule your priorities.",
+
+    "The main thing is to keep the main thing the main thing.",
+
+    "We see the world, not as it is, but as we are──or, as we are conditioned to see it.",
+
+    "Every human has four endowments - self-awareness, conscience, independent will, and creative imagination. These give us the ultimate human freedom... The power to choose, to respond, to change.",
+
+    "When you show deep empathy toward others, their defensive energy goes down, and positive energy replaces it. That's when you can get more creative in solving problems.",
+
+    "If I really want to improve my situation, I can work on the one thing over which I have control - myself.",
+
+    "Strength lies in differences, not in similarities.",
+
+    "The way we see the problem is the problem.",
+
+    'Your life doesn\'t just "happen." Whether you know it or not, it is carefully designed by you.',
+  ],
+};

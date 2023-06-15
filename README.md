@@ -40,6 +40,9 @@ If you'd like to contribute to Booklandia by adding your own favorite books and 
 - Factfullness
 - 5am Club
 - The Compound Effect
+- 7 Habits of Highly Effective People
+- Essentialism: The Disciplined Pursuit of Less
+- Mindset: The New Psychology of Success
 <!-- BOOK TITLES END -->
 
 ## License

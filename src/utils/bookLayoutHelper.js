@@ -6,6 +6,6 @@ export const BookTitle = {
   genres: [],
   imgSrc: ".jpg",
   description: [],
-  quotes: [],
   Analogies: [],
+  quotes: [],
 };
