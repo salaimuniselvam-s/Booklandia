@@ -3,6 +3,7 @@ import { FourtyEightLawsOfPower } from "./48_Laws_Of_Power.js";
 import { FiveAmClub } from "./5Am_Club.js";
 import { SevenHabits } from "./7_Habits_Of_Highly_Effective_People.js";
 import { Alchemist } from "./Alchemist.js";
+import { As_A_Man_Thinketh } from "./As_A_Man_Thinketh.js";
 import { AtomicHabits } from "./Atomic_Habits.js";
 import { CompoundEffect } from "./Compound_Effect.js";
 import { Cosmos } from "./Cosmos.js";
@@ -27,9 +28,11 @@ import { PsychologyOfPersuasion } from "./Psychology_Of_Persuasion.js";
 import { Sapiens } from "./Sapiens.js";
 import { Siddhartha } from "./Siddhartha.js";
 import { Stillness_is_the_key } from "./Stillness_is_the_key.js";
+import { Subtle_Art_Of_Not_Giving_A_Fuck } from "./Subtle_Art_Of_Not_Giving_A_Fuck.js";
 import { The_Courage_To_Be_Disliked } from "./The_Courage_To_Be_Disliked.js";
 import { ThinkAgain } from "./Think_Again.js";
 import { thinkAndGrowRich } from "./Think_And_Grow_Rich.js";
+import { Think_Like_A_Monk } from "./Think_Like_A_Monk.js";
 import { untethered_soul } from "./Untethered_Soul.js";
 
 export const BOOKS = [
@@ -66,4 +69,7 @@ export const BOOKS = [
   Alchemist,
   Siddhartha,
   Meditations,
+  Think_Like_A_Monk,
+  Subtle_Art_Of_Not_Giving_A_Fuck,
+  As_A_Man_Thinketh,
 ];

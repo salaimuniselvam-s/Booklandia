@@ -9,6 +9,7 @@ export const BookTitle = {
   Analogies: [],
   quotes: [],
 };
+
 // book title summary
 // book title 6 line summary
 // key takeaways from that book

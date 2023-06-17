@@ -48,6 +48,9 @@ If you'd like to contribute to Booklandia by adding your own favorite books and 
 - Alchemist
 - Siddhartha
 - Meditations
+- Think Like A Monk
+- The Subtle Art Of Not Giving A Fuck
+- As A Man Thinketh
 <!-- BOOK TITLES END -->
 
 ## License
