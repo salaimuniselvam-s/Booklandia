@@ -43,6 +43,11 @@ If you'd like to contribute to Booklandia by adding your own favorite books and 
 - 7 Habits of Highly Effective People
 - Essentialism: The Disciplined Pursuit of Less
 - Mindset: The New Psychology of Success
+- Ego is the Enemy
+- The Evolution of Everything
+- Alchemist
+- Siddhartha
+- Meditations
 <!-- BOOK TITLES END -->
 
 ## License
