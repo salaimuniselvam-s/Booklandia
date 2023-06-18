@@ -4,6 +4,7 @@ import { FiveAmClub } from "./5Am_Club.js";
 import { SevenHabits } from "./7_Habits_Of_Highly_Effective_People.js";
 import { Alchemist } from "./Alchemist.js";
 import { As_A_Man_Thinketh } from "./As_A_Man_Thinketh.js";
+import { AstroPhysics_For_People_In_A_Hurry } from "./AstroPhysics_For_People_In_A_Hurry.js";
 import { AtomicHabits } from "./Atomic_Habits.js";
 import { CompoundEffect } from "./Compound_Effect.js";
 import { Cosmos } from "./Cosmos.js";
@@ -24,8 +25,10 @@ import { Mountain_Is_You } from "./Mountain_Is_You.js";
 import { Numbers_Dont_Lie } from "./Numbers_Dont_Lie.js";
 import { Outliers } from "./Outliers.js";
 import { PowerOfHabit } from "./Power_Of_Habit.js";
+import { Psychology_Of_Money } from "./Psychology_Of_Money.js";
 import { PsychologyOfPersuasion } from "./Psychology_Of_Persuasion.js";
 import { Sapiens } from "./Sapiens.js";
+import { Shoe_Dog } from "./Shoe_Dog.js";
 import { Siddhartha } from "./Siddhartha.js";
 import { Stillness_is_the_key } from "./Stillness_is_the_key.js";
 import { Subtle_Art_Of_Not_Giving_A_Fuck } from "./Subtle_Art_Of_Not_Giving_A_Fuck.js";
@@ -72,4 +75,7 @@ export const BOOKS = [
   Think_Like_A_Monk,
   Subtle_Art_Of_Not_Giving_A_Fuck,
   As_A_Man_Thinketh,
+  Psychology_Of_Money,
+  Shoe_Dog,
+  AstroPhysics_For_People_In_A_Hurry,
 ];
