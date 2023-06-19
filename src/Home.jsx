@@ -3,33 +3,39 @@ import BookCard from "./components/BookCard";
 import { useEffect, useState } from "react";
 import SearchFilter from "./components/SearchFilter";
 import GenreFilter from "./components/GenreFilter";
+import AuthorFilter from "./components/AuthorFilter";
 
 const Home = () => {
   const [books, setBooks] = useState([]);
   const [searchBooks, setSearchBooks] = useState();
   const [genre, setGenre] = useState([]);
   const [selectedGenre, setSelectedGenre] = useState("");
+  const [authors, setAuthors] = useState([]);
+  const [selectedAuthor, setSelectedAuthor] = useState("");
 
   // Initialising Books
   useEffect(() => {
     setBooks(BOOKS);
     const genres = [...new Set(BOOKS.map((book) => book.genres).flat())];
     setGenre(genres);
+    const authors = [...new Set(BOOKS.map((book) => book.author).flat())];
+    setAuthors(authors);
   }, []);
 
-  // Filtering Books Based on the genre category and search keyword
   const filterBook = (book) => {
-    if (!book && selectedGenre) {
-      setBooks(
-        BOOKS.filter((b) => b.genres.some((g) => selectedGenre.includes(g)))
-      );
-    } else if (!book && !selectedGenre) {
-      setBooks(BOOKS);
-    } else {
-      setBooks(
-        BOOKS.filter((b) => b.title.toLowerCase().includes(book.toLowerCase()))
-      );
-    }
+    // Filtering Books Based on the book,author and genre filters
+    setBooks(
+      BOOKS.filter(
+        (b) =>
+          (selectedGenre
+            ? b.genres.some((g) => selectedGenre.includes(g))
+            : true) &&
+          (book ? b.title.toLowerCase().includes(book.toLowerCase()) : true) &&
+          (selectedAuthor
+            ? b.author.toLowerCase().includes(selectedAuthor.toLowerCase())
+            : true)
+      )
+    );
   };
 
   const searchBook = (book) => {
@@ -40,7 +46,7 @@ const Home = () => {
   useEffect(() => {
     filterBook(searchBooks);
     // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [selectedGenre]);
+  }, [selectedGenre, selectedAuthor]);
 
   return (
     <div className="max-w-screen-xl mx-auto">
@@ -50,22 +56,20 @@ const Home = () => {
         stories come alive and readers&rsquo; dreams take flight. <br /> Unleash
         your imagination and embark on a literary journey like no other. &quot;
       </div>
-      <div className="flex flex-col sm:flex-row gap-6 my-6 mx-3">
-        <div className="w-full sm:w-9/12">
-          {/* Search Filter */}
-          <SearchFilter searchBook={searchBook} />
-        </div>
-        <div className="w-full sm:w-3/12">
-          {/* Genre Category Filter */}
-          <GenreFilter genres={genre} setGenre={setSelectedGenre} />
-        </div>
+      <div className="flex flex-col items-center sm:items-start justify-center sm:flex-row gap-6 my-6 mx-3">
+        {/* Book Filter */}
+        <SearchFilter searchBook={searchBook} />
+
+        {/* Genre Filter */}
+        <GenreFilter genres={genre} setGenre={setSelectedGenre} />
+
+        {/* Author Filter */}
+        <AuthorFilter authors={authors} setAuthors={setSelectedAuthor} />
       </div>
 
       {/* Book Widgets */}
       <div
-        className={`flex flex-wrap flex-col items-center sm:items-start ${
-          books.length > 1 && "justify-center"
-        } sm:flex-row gap-6 my-6 mx-3`}
+        className={`flex flex-wrap flex-col items-center sm:items-start justify-center sm:flex-row gap-6 my-6 mx-3`}
       >
         {books.map((book, index) => {
           return <BookCard key={index} {...book} />;

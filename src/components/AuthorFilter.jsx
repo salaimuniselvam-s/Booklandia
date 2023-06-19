@@ -1,19 +1,19 @@
 import PropTypes from "prop-types";
 import Select from "react-select";
 
-const GenreFilter = ({ genres, setGenre }) => {
+const AuthorFilter = ({ authors, setAuthors }) => {
   return (
     <div className="w-full max-w-sm relative">
       <Select
         classNamePrefix="select"
-        placeholder="Select Genre"
+        placeholder="Select Author"
         onChange={(book, action) => {
-          setGenre(action.action === "clear" ? "" : book.value);
+          setAuthors(action.action === "clear" ? "" : book.value);
         }}
         isClearable={true}
         isSearchable={true}
         name="genre"
-        options={genres.map((genre) => {
+        options={authors.map((genre) => {
           return { label: genre, value: genre };
         })}
       />
@@ -21,9 +21,9 @@ const GenreFilter = ({ genres, setGenre }) => {
   );
 };
 
-GenreFilter.propTypes = {
-  genres: PropTypes.array.isRequired,
-  setGenre: PropTypes.func.isRequired,
+AuthorFilter.propTypes = {
+  authors: PropTypes.array.isRequired,
+  setAuthors: PropTypes.func.isRequired,
 };
 
-export default GenreFilter;
+export default AuthorFilter;
