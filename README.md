@@ -54,6 +54,12 @@ If you'd like to contribute to Booklandia by adding your own favorite books and 
 - Psychology Of Money
 - Shoe Dog: A Memoir by the Creator of Nike
 - AstroPhysics for people in a Hurry
+- The Almanack of Naval Ravikant
+- Deep Work: Rules for Focused Success in a Distracted World
+- A Brief History Of Time
+- Can't Hurt Me : Master Your Mind and Defy The Odds
+- The Power of the Subconscious Mind
+- Theory Of Everything
 <!-- BOOK TITLES END -->
 
 ## License
