@@ -8,6 +8,7 @@ import { Almanack_of_Naval_Ravikanth } from "./Almanack_of_Naval_Ravikanth.js";
 import { As_A_Man_Thinketh } from "./As_A_Man_Thinketh.js";
 import { AstroPhysics_For_People_In_A_Hurry } from "./AstroPhysics_For_People_In_A_Hurry.js";
 import { AtomicHabits } from "./Atomic_Habits.js";
+import { BlackSwan } from "./Black_Swan.js";
 import { Cant_Hurt_Me } from "./Can't_Hurt_Me.js";
 import { CompoundEffect } from "./Compound_Effect.js";
 import { Cosmos } from "./Cosmos.js";
@@ -90,6 +91,7 @@ export const BOOKS = [
   Cant_Hurt_Me,
   Power_Of_SubConscious_Mind,
   Theory_Of_Everything,
+  BlackSwan,
 ];
 
 // Intelligent Investor

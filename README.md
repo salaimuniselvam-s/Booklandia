@@ -60,6 +60,7 @@ If you'd like to contribute to Booklandia by adding your own favorite books and 
 - Can't Hurt Me : Master Your Mind and Defy The Odds
 - The Power of the Subconscious Mind
 - Theory Of Everything
+- Black Swan
 <!-- BOOK TITLES END -->
 
 ## License
